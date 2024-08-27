@@ -1,6 +1,6 @@
 <template>
 	<FondoPag class="z-0 position-absolute w-100"/>
-	<div class="z-1 position-absolute	">
+	<div class="z-1 position-absolute w-100">
 		<BarraInicio />
 		<RouterView />
 		<BarraFooter />
