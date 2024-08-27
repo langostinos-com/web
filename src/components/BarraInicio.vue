@@ -1,5 +1,5 @@
 <template>
-	<nav class="navbar bg-body-tertiary bg-danger">
+	<nav class="navbar bg-body-tertiary bg-danger w-100">
 		<div class="container-fluid">
 			
 		</div>
