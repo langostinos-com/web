@@ -1,5 +1,5 @@
 <template>
-	<FondoPag class="position-absolute user-select-none"/>
+	<FondoPag class="position-fixed w-100 h-100"/>
 	<div class="position-absolute w-100 h-100">
 		<RouterView />
 		<BarraFooter />

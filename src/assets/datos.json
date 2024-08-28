@@ -1,7 +1,7 @@
 {
-	"Datos": {
+	"info": {
 		"nombre": "Langostinos.com",
-		"eslogan": "El mejor langostino de toda la ciudad",
+		"eslogan": "El mejor langostino de toda la ciudad, hecho por manos de expertos",
 		"invitacio": "Ven y experimenalo por ti mismo!",
 		"texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 
@@ -15,33 +15,33 @@
 
 		"mapa": "https://goo.gl/maps/D9Wn7v6hNzHg7mFj7"
 	},
-	"Images": {
+	"imagenes": {
 		"empresa": {
-			"logo": "../assets/logo.webp",
-			"logoOscuro": "../assets/logo2.webp",
-			"logotipo": "../assets/logotipo.png",
-			"logotipoOscuro": "../assets/logotipo2.png",
-			"icono": "../assets/logo.webp"
+			"logo": "logo.webp",
+			"logoOscuro": "logo2.webp",
+			"logotipo": "logotipo.png",
+			"logotipoOscuro": "logotipo2.png",
+			"icono": "logo.webp"
 		},
-		"fondos": {
-			"wp1": "../assets/tempPics/wp1.jpg",
-			"wp2": "../assets/tempPics/wp2.jpg",
-			"wp3": "../assets/tempPics/wp3.jpg",
-			"wp4": "../assets/tempPics/wp4.jpg",
-			"wp5": "../assets/tempPics/wp5.jpg"
-		},
+		"fondo": "wallpaper/wp1.jpg",
+		"fondos": [
+			"wallpaper/wp2.jpg",
+			"wallpaper/wp3.jpg",
+			"wallpaper/wp4.jpg",
+			"wallpaper/wp5.jpg"
+		],
 		"menu": {
-			"suhi": "../assets/suhi.webp",
-			"suhi2": "../assets/suhi2.webp",
-			"arroz": "../assets/arroz.webp",
-			"arroz2": "../assets/arroz2.webp",
-			"pescado": "../assets/pescado.webp",
-			"pescado2": "../assets/pescado2.webp",
-			"langostinos": "../assets/langostinos.webp",
-			"langostinos2": "../assets/langostinos2.webp"
+			"suhi": "menu/suhi.webp",
+			"suhi2": "menu/suhi2.webp",
+			"arroz": "menu/arroz.webp",
+			"arroz2": "menu/arroz2.webp",
+			"pescado": "menu/pescado.webp",
+			"pescado2": "menu/pescado2.webp",
+			"langostinos": "menu/langostinos.webp",
+			"langostinos2": "menu/langostinos2.webp"
 		}
 	},
-	"Redes": {
+	"redes": {
 		"instagram": {
 			"usuario": "langostinos",
 			"link": "https://www.instagram.com/langostinos/"
@@ -56,26 +56,249 @@
 		},
 		"whatsapp": {
 			"usuario": "Langostinos.com",
-			"link": "https://wa.me/5491122903000"
+			"link": "https://wa.me/+573115165374?text=Hola!%20Quiero%20hacer%20un%20pedido."
 		}
 	},
-	"Menu Principal": {
-		"Entradas": {},
-		"Langostinos": {},
-		"Pescados": {},
-		"Cazuelas": {},
-		"Arroces": {},
-		"Carnes": {},
-		"Ceviches": {}
+	"menuPrincipal": {
+		"Entradas": [
+			{
+				"descripcion": "Excelentes platos para iniciar la cena"
+			},
+			{
+				"nombre": "Patacón en salsa",
+				"descripcion": "3 porciones de patacones acompañados de una de las siguientes salsas",
+				"costo": "10000",
+				"opciones": ["Hogao","Camarones","Tártara","guacamole"]
+			},
+			{
+				"nombre": "Anillos de cebolla",
+				"descripcion": "Apanados acompañados con salsa tártara",
+				"costo": "10000",
+				"opciones": []
+			}
+		],
+		"Langostinos": [
+			{
+				"descripción": "La especialidad de la casa, con arroz según elección, patacones o papas a la francesa y ensalada"
+			},
+			{
+				"nombre": "Langostinos almendrados",
+				"descripcion": "Cocinados en salsa de almendras y vino blanco",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Langostinos al curry",
+				"descripcion": "Langostinos con curry y salsa de coco",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Langostinos a la diabla",
+				"descripcion": "Langostinos con salsa en pasta de tomate, pimienta y vino",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Langostinos a la española",
+				"descripcion": "Langostinos apanados acompañados con salsa tártara",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Langostinos monseñor",
+				"descripcion": "En salsa holandesa, vino blanco y brandi.",
+				"costo": ""
+			},
+			{
+				"nombre": "Langostinos al ajillo",
+				"descripcion": "Cocinados en salsa de ajo y vino",
+				"costo": "40000"
+			}
+		],
+		"Pescados": [
+			{
+				"descripcion": "Con opciones desde 35.000 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada. Algunos pueden ser preparados en salsa o fritos.",
+				"opciones":[
+					"Frito",
+					"En salsa",
+					"Salsa de camarones",
+					"Salsa marinera",
+					"Endiablado"
+				]
+			},
+			{
+				"nombre": "Salmon",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Robalo entero",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Pargo rojo",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Trucha",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Mojarra",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Sierra",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Picuda",
+				"costo": "40000"
+			}
+		],
+		"Cazuelas": [
+			{
+				"descripcion": "Excelentes preparaciones acompañadas con arroz a elección y patacones. [¡Plato muy caliente!]"
+			},
+			{
+				"nombre": "Cazuela mixta",
+				"descripcion": "Variedad de mariscos en salsa de bisque (Salsa hecha con mariscos y un toque de brandy)",
+				"costo": "35000"
+			},
+			{
+				"nombre": "Cazuela langostinos",
+				"descripcion": "Con salsa al wiski",
+				"costo": "40000"
+			},
+			{
+				"nombre": "Cazuela del chef",
+				"descripcion": "Cazuela de camarones en salsa base con dados de carne y pechuga",
+				"costo": "35000"
+			}
+		],
+		"Arroces": [
+			{
+				"descripcion": "Variedad de platos de arroz acompañados con ensalada, patacones y papas a la francesa."
+			},
+			{
+				"nombre": "A la marinera",
+				"descripcion": "Arroz surtido de mariscos y verduras",
+				"costo": "35000"
+			},
+			{
+				"nombre": "Endiablado",
+				"descripcion": "Con mariscos picantes y filete apanado",
+				"costo": "35000"
+			},
+			{
+				"nombre": "Con camarón",
+				"descripcion": "Arroz acompañado de camarones y verduras",
+				"costo": "35000"
+			},
+			{
+				"nombre": "Con langostinos",
+				"descripcion": "Arroz acompañado de langostinos y verduras",
+				"costo": "40000"
+			}
+		],
+		"Carnes": [
+			{
+				"descripcion": "Todas las carnes a la parrilla. Acompañados con arroz a elección, papas a la francesa y ensalada"
+			},
+			{
+				"nombre": "Churrasco",
+				"costo": "35000"
+			},
+			{
+				"nombre": "Lomo valluno",
+				"costo": "35000"
+			},
+			{
+				"nombre": "Pechuga a la plancha",
+				"costo": "30000"
+			},
+			{
+				"nombre": "Pechuga con salsa de champiñones",
+				"costo": "35000"
+			},
+			{
+				"nombre": "Pechuga al curry",
+				"costo": "35000"
+			}
+		],
+		"Ceviches": [
+			{
+				"descripcion": "Acompañados con galletas de sal o patacón y gaseosa"
+			},
+			{
+				"nombre": "De la casa",
+				"descripcion": "Servido en aguacate relleno con camarones en salsa roja",
+				"opciones": [
+					"Mediano 18.000",
+					"Grande 25.000"
+				]
+			},
+			{
+				"nombre": "Coctel de camarones",
+				"descripcion": "Servidos con salsa roja",
+				"opciones": [
+					"Mediano 18.000",
+					"Grande 25.000"
+				]
+			},
+			{
+				"nombre": "Coctel de langostinos",
+				"descripcion": "servidos en Salsa golf",
+				"opciones": [
+					"Mediano 25.000",
+					"Grande 30.000"
+				]
+			}
+		]
 	},
+
 	"Bebidas": {
-		"Cocteles": {},
-		"Cervezas": {},
-		"Jugos": {},
-		"Gaseosas": {}
+		"Cocteles": [
+			{
+				"descripcion": ""
+			},
+			{
+				"nombre": "",
+				"descripcion": "",
+				"costo": "",
+				"opciones": []
+			}
+		],
+		"Cervezas": [
+			{
+				"descripcion": ""
+			},
+			{
+				"nombre": "",
+				"descripcion": "",
+				"costo": "",
+				"opciones": []
+			}
+		],
+		"Jugos": [
+			{
+				"descripcion": ""
+			},
+			{
+				"nombre": "",
+				"descripcion": "",
+				"costo": "",
+				"opciones": []
+			}
+		],
+		"Gaseosas": [
+			{
+				"descripcion": ""
+			},
+			{
+				"nombre": "",
+				"descripcion": "",
+				"costo": "",
+				"opciones": []
+			}
+		]
 	},
 	"Sushis": {},
-	"Otros": {
-		
-	}
+	"Otros": {}
 }
