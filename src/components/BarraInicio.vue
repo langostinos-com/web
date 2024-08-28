@@ -9,12 +9,12 @@
 			</div>
 			<div class="rounded-3 d-none d-md-flex w-75 flex-nowrap p-1 align-items-center shadow" style="background-color: whitesmoke;">
 				<img src="../assets/logo.webp" class="me-1 rounded-1 d-none" style="width: 60px ; background-color: #00253E;" alt="logo" />
-				<div class="nav nav-pills gap-2 nav-fill w-100 me-2" id="nav-tab" role="tablist">
-					<button data-bs-toggle="tab" type="button" @click="toInicio" class="nav-link active" to="/"  aria-selected="true">Inicio</button>
-					<button data-bs-toggle="tab" type="button" @click="toMenu" class="nav-link" to="/menu"  aria-selected="false">Menu</button>
-					<button data-bs-toggle="tab" type="button" @click="toContacto" class="nav-link" to="/contacto"  aria-selected="false">Contacto</button>
+				<div class="gap-2 d-flex w-100 me-2">
+					<button type="button" class="btn botonesBarra" @click="toInicio" to="/">Inicio</button>
+					<button type="button" class="btn botonesBarra" @click="toMenu" to="/menu">Menu</button>
+					<button type="button" class="btn botonesBarra" @click="toContacto" to="/contacto">Contacto</button>
 				</div>
-				<button type="button" class="btn btn-primary w-25 text-nowrap" @click="toWp" style="height: 50px;">¡Pide ahora!</button>
+				<button type="button" class="btn botonPedir w-25 text-nowrap" @click="toWp" style="height: 50px;">¡Pide ahora!</button>
 			</div>
 		</nav>
 		<div class="offcanvas offcanvas-end w-75 shadow" tabindex="-1" id="MenuCompacto" aria-labelledby="MenuCompacto" >
@@ -54,4 +54,16 @@ export default {
 </script>
 
 <style>
+.botonesBarra {
+	border: 0;
+	background-color: transparent;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+	
+}
+.botonesBarra:hover {
+	background-color: #00253E;
+	color: whitesmoke;
+}
 </style>

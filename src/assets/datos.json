@@ -1,0 +1,81 @@
+{
+	"Datos": {
+		"nombre": "Langostinos.com",
+		"eslogan": "El mejor langostino de toda la ciudad",
+		"invitacio": "Ven y experimenalo por ti mismo!",
+		"texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+		"direccion": "Calle 1 # 1 - 1",
+		"ciudad": "Bogota",
+		"pais": "Colombia",
+		"celular": "1122903000",
+		"email": "lKXjB@example.com",
+		"horario": "MArtes a Viernes de 9:00 a.m. a 6:00 p.m.",
+		"horarioFin": "Sábados, domingos y feriados de 9:00 a.m. a 3:00 p.m.",
+
+		"mapa": "https://goo.gl/maps/D9Wn7v6hNzHg7mFj7"
+	},
+	"Images": {
+		"empresa": {
+			"logo": "../assets/logo.webp",
+			"logoOscuro": "../assets/logo2.webp",
+			"logotipo": "../assets/logotipo.png",
+			"logotipoOscuro": "../assets/logotipo2.png",
+			"icono": "../assets/logo.webp"
+		},
+		"fondos": {
+			"wp1": "../assets/tempPics/wp1.jpg",
+			"wp2": "../assets/tempPics/wp2.jpg",
+			"wp3": "../assets/tempPics/wp3.jpg",
+			"wp4": "../assets/tempPics/wp4.jpg",
+			"wp5": "../assets/tempPics/wp5.jpg"
+		},
+		"menu": {
+			"suhi": "../assets/suhi.webp",
+			"suhi2": "../assets/suhi2.webp",
+			"arroz": "../assets/arroz.webp",
+			"arroz2": "../assets/arroz2.webp",
+			"pescado": "../assets/pescado.webp",
+			"pescado2": "../assets/pescado2.webp",
+			"langostinos": "../assets/langostinos.webp",
+			"langostinos2": "../assets/langostinos2.webp"
+		}
+	},
+	"Redes": {
+		"instagram": {
+			"usuario": "langostinos",
+			"link": "https://www.instagram.com/langostinos/"
+		},
+		"tiktok": {
+			"usuario": "langostinos",
+			"link": "https://www.tiktok.com/@langostinos?lang=es"
+		},
+		"youtube": {
+			"usuario": "langostinos",
+			"link": "https://www.youtube.com/channel/UC9b7V0b4nJ9kCQd2cY5tXpQ"
+		},
+		"whatsapp": {
+			"usuario": "Langostinos.com",
+			"link": "https://wa.me/5491122903000"
+		}
+	},
+	"Menu Principal": {
+		"Entradas": {},
+		"Langostinos": {},
+		"Pescados": {},
+		"Cazuelas": {},
+		"Arroces": {},
+		"Carnes": {},
+		"Ceviches": {}
+	},
+	"Bebidas": {
+		"Cocteles": {},
+		"Cervezas": {},
+		"Jugos": {},
+		"Gaseosas": {}
+	},
+	"Sushis": {},
+	"Otros": {
+		
+	}
+}
