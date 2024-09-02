@@ -25,10 +25,9 @@
 			<p></p>
 			<i class="bi bi-clock me-1"></i>
 			Horario
-			<ul>
+			<ul class="text-start">
 				<li>{{ info.horario }}</li>
 				<li>{{ info.horarioFin }}</li>
-				
 			</ul>
 		</div>
 		<div class="mapa rounded-3" @click="funcion.toMap" style="color: blue;">
