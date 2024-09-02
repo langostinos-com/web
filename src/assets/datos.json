@@ -1,19 +1,18 @@
 {
 	"info": {
 		"nombre": "Langostinos.com",
-		"eslogan": "El mejor langostino de toda la ciudad, hecho por manos expertas",
-		"invitacion": "¡Ven y experimenalo por ti mismo!",
+		"eslogan": "El mejor langostino de Bogotá, hecho por manos expertas",
+		"invitacion": "¡Ven y experimenta por ti mismo!",
 		"texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
-		"direccion": "Calle 1 # 1 - 1",
+		"direccion": "Cra. 91a #72a-1",
 		"ciudad": "Bogotá",
 		"pais": "Colombia",
-		"celular": "1122903000",
-		"email": "lKXjB@example.com",
-		"horario": "MArtes a Viernes de 9:00 a.m. a 6:00 p.m.",
-		"horarioFin": "Sábados, domingos y feriados de 9:00 a.m. a 3:00 p.m.",
-
-		"mapa": "https://goo.gl/maps/D9Wn7v6hNzHg7mFj7"
+		"celular": "3115165374",
+		"email": "contacto@restaurantelangostinos.com",
+		"horario": "Martes a jueves de 11:30 a.m. a 8:00 p.m.",
+		"horarioFin": "Viernes a domingo y feriados de 11:30 a.m. a 10:00 p.m.",
+		"mapa": "https://www.google.com/maps/dir/?api=1&origin=&destination=Cra.+91a+%2372a-1,+Bogotá"
 	},
 	"imagenes": { 
 		"empresa": {
@@ -23,6 +22,7 @@
 			"logotipoOscuro": "logotipo2.webp",
 			"icono": "icono.ico"
 		},
+		"mapa":"mapa.jpg",
 		"fondo": "wallpaper/wp1.jpg",
 		"fondos": [
 			"wallpaper/wp2.jpg",

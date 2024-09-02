@@ -94,7 +94,20 @@
 .mapa{
 	grid-area: 2 / 1 / 2 / 3;
 	align-content: center;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
 }
+
+.mapa img {
+	transition: transform 1s ease;
+}
+
+.mapa:hover img {
+	transform: scale(1.1);
+	
+}
+
 .info{
 	grid-area: 3 / 1 / 3 / 3;
 	align-content: end;

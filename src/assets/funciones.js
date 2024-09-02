@@ -15,9 +15,14 @@ function toWp() {
 	window.open(datos.redes.whatsapp.link, "_blank");
 }
 
+function toMap() {
+	window.open(datos.info.mapa, "_blank");
+}
+
 export default {
 	toInicio,
 	toMenu,
 	toContacto,
 	toWp,
+	toMap
 }
