@@ -15,13 +15,13 @@
 
 		"mapa": "https://goo.gl/maps/D9Wn7v6hNzHg7mFj7"
 	},
-	"imagenes": {
+	"imagenes": { 
 		"empresa": {
 			"logo": "logo.webp",
 			"logoOscuro": "logo2.webp",
-			"logotipo": "logotipo.png",
-			"logotipoOscuro": "logotipo2.png",
-			"icono": "logo.webp"
+			"logotipo": "logotipo.webp",
+			"logotipoOscuro": "logotipo2.webp",
+			"icono": "icono.ico"
 		},
 		"fondo": "wallpaper/wp1.jpg",
 		"fondos": [

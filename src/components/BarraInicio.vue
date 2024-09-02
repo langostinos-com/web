@@ -67,6 +67,8 @@ export default {
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: auto;
+	font-family: 'Times New Roman', Times, serif;
+	color: #00253E;
 	
 }
 .botonesBarra:hover {
