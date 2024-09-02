@@ -20,18 +20,4 @@ export default {
 	},
 };
 </script>
-<style>
-.barra {
-	z-index: 3;	
-}
-.botonPedir {
-	background-color: #00253E;
-	color: whitesmoke;
-}
-.botonPedir:hover {
-	background-color: whitesmoke;
-	color: #00253E;
-	border:solid 1px;
-	border-color: #00253E;
-}
-</style>
+<style></style>

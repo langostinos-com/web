@@ -1,0 +1,89 @@
+@font-face {
+	font-family: adelia;
+	src: url(../assets/fonts/adelia.otf) format('opentype');
+}
+.titulo {
+	font-family: 'adelia', sans-serif;
+	font-size: 10vw;
+}
+.parrafo{
+	font-size: 1.5rem;
+	font-family: 'Times New Roman', Times, serif;
+	margin: auto;
+}
+.botonMenu {
+	background-color: #00253E;
+	color: whitesmoke;
+	font-family: 'Times New Roman', Times, serif;
+	min-width: 200px;
+	width: 50%;
+}
+.botonMenu:hover {
+	background-color: whitesmoke;
+	color: #00253E;
+	border: #00253E 1px solid;
+}
+.botonContacto {
+	background-color: #00253E;
+	border: whitesmoke 1px solid;
+	color: whitesmoke;
+	font-family: 'Times New Roman', Times, serif;
+	width: 25%;
+	min-width: 200px;
+}
+.botonContacto:hover {
+	background-color: whitesmoke;
+	color: #00253E;
+	border: #00253E 1px solid;
+}
+.body {
+	background-color: #00253E;
+}
+.carousel-item {
+	height: 100%;
+	width: 100%;
+	filter: brightness(70%);
+}
+.botonesBarra {
+	border: 0;
+	background-color: transparent;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+	font-family: 'Times New Roman', Times, serif;
+	color: #00253E;
+	
+}
+.botonesBarra:hover {
+	background-color: #00253E;
+	color: whitesmoke;
+}
+.barra {
+	z-index: 3;	
+}
+.botonPedir {
+	background-color: #00253E;
+	color: whitesmoke;
+}
+.botonPedir:hover {
+	background-color: whitesmoke;
+	color: #00253E;
+	border:solid 1px;
+	border-color: #00253E;
+}
+@media (min-width: 576px) and (max-width: 799px) {
+	.titulo {
+		font-size: 7vw;
+	}
+	.parrafo{
+		width: 70%;
+	}
+}
+@media (min-width: 799px)  {
+	.titulo {
+		font-size: 4vw;
+	}
+	.parrafo{
+		width: 50%;
+	}
+}

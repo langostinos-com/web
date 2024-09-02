@@ -1,7 +1,7 @@
 {
 	"info": {
 		"nombre": "Langostinos.com",
-		"eslogan": "El mejor langostino de toda la ciudad, hecho por manos de expertos",
+		"eslogan": "El mejor langostino de toda la ciudad, hecho por manos expertas",
 		"invitacio": "Ven y experimenalo por ti mismo!",
 		"texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 
@@ -252,7 +252,6 @@
 			}
 		]
 	},
-
 	"Bebidas": {
 		"Cocteles": [
 			{
