@@ -30,8 +30,27 @@
 			<p class="parrafo my-5">{{info.eslogan}}</p>
 			<button type="button" class="btn botonContacto d-block mx-auto" @click="funcion.toContacto">Escribenos</button>
 		</div>
-		<div class="bg-info" style="height: 720px;">
-
+		<div class="infoBox">
+			<div class="presentacion">
+				<div class="fs-2 fst-italic">{{ info.invitacion }}</div>
+				<p></p>
+				<div>{{ info.texto }}</div>
+			</div>
+			<div class="info">
+				<hr>
+				<div>{{ info.direccion }}</div>
+				<div>{{ info.ciudad }}, {{ info.pais }}</div>
+				<p></p>
+				<div>{{ info.celular }}</div>
+				<div>{{ info.email }}</div>
+				<p></p>
+				<div >Horario</div>
+				<div>{{ info.horario }}</div>
+				<div>{{ info.horarioFin }}</div>
+			</div>
+			<div class="mapa">
+				<img class="d-block m-auto" :src="imagenes.empresa.logo" alt="" style="min-width: 250px; width: 100%;">
+			</div>
 		</div>
 	</div>
 </template>

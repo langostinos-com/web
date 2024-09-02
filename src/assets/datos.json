@@ -2,11 +2,11 @@
 	"info": {
 		"nombre": "Langostinos.com",
 		"eslogan": "El mejor langostino de toda la ciudad, hecho por manos expertas",
-		"invitacio": "Ven y experimenalo por ti mismo!",
-		"texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"invitacion": "¡Ven y experimenalo por ti mismo!",
+		"texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
 		"direccion": "Calle 1 # 1 - 1",
-		"ciudad": "Bogota",
+		"ciudad": "Bogotá",
 		"pais": "Colombia",
 		"celular": "1122903000",
 		"email": "lKXjB@example.com",
