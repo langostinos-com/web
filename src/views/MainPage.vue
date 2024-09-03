@@ -5,7 +5,7 @@
 	<div class="text-center w-100 align-content-center" style="height: 400px;">
 		<h1 class="titulo">{{info.nombre}}</h1>
 		<p class="parrafo my-5">{{info.eslogan}}</p>
-		<button type="button" class="btn botonContacto d-block mx-auto" @click="funcion.toContacto">Escribenos</button>
+		<button type="button" class="btn botonContacto d-block mx-auto" @click="funcion.toContacto">Haz tu reserva</button>
 	</div>
 	<InfoBox/>
 	<VitrinaMain/>

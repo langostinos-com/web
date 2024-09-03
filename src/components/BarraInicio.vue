@@ -1,13 +1,11 @@
 <template>
 	<div id="BarraInicio" class="w-100">
 		<nav class="navbar p-2 justify-content-center">
-			<div class="rounded-3 d-md-none container flex-nowrap shadow" type="button" data-bs-toggle="offcanvas" data-bs-target="#MenuCompacto" aria-controls="MenuCompacto" style="min-width: fit-content; background-color: #00253E;">
+			<div class="barraCell rounded-3 d-md-none container flex-nowrap shadow" type="button" data-bs-toggle="offcanvas" data-bs-target="#MenuCompacto" aria-controls="MenuCompacto">
 				<img :src="imagenes.empresa.logotipo" style="height:35px" alt="Langostinos.com"/>
-				<div class="p-2">
-					<img :src="imagenes.empresa.logo" class="" style="width: 40px ; background-color: #00253E;" alt="logo" />
-				</div>
+				<i class="bi bi-list" style="font-size: 35px;"></i>
 			</div>
-			<div class="rounded-3 d-none d-md-flex w-75 flex-nowrap p-1 align-items-center shadow" style="background-color: whitesmoke;">
+			<div class="rounded-3 d-none d-md-flex w-75 flex-nowrap p-1 align-items-center shadow p-2" style="background-color: whitesmoke;">
 				<img :src="imagenes.empresa.logo" class="me-1 rounded-1 d-none" style="width: 60px ; background-color: #00253E;" alt="logo" />
 				<div class="gap-2 d-flex w-100 me-2">
 					<button type="button" class="btn botonesBarra" @click="funcion.toInicio" to="/">Inicio</button>
@@ -77,5 +75,11 @@ export default {
 	background-color: #00253E;
 	color: whitesmoke;
 }
+.barraCell {
+	background-color: #00253E;
+	color: whitesmoke;
+	border: whitesmoke 1px solid;
+}
+
 
 </style>

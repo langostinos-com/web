@@ -1,5 +1,5 @@
 <template>
-	<div class="position-relative overflow-hidden rounded-3 carta" @click="cuentaToques">
+	<div class="position-relative overflow-hidden rounded-3 carta shadow-lg" @click="cuentaToques">
 		<div class="h-100 w-100 d-flex align-items-center" style="background-color: black;">
 			<div class="w-100 text-center fs-3">Ver menú de {{ nombre }}</div>
 		</div>
