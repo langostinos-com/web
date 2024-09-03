@@ -14,7 +14,7 @@
 		"horarioFin": "Viernes a domingo y feriados de 11:30 a.m. a 10:00 p.m.",
 		"mapa": "https://www.google.com/maps/dir/?api=1&origin=&destination=Cra.+91a+%2372a-1,+Bogotá"
 	},
-	"imagenes": { 
+	"imagenes": {
 		"empresa": {
 			"logo": "logo.webp",
 			"logoOscuro": "logo2.webp",
@@ -22,7 +22,7 @@
 			"logotipoOscuro": "logotipo3.webp",
 			"icono": "icono.ico"
 		},
-		"mapa":"mapa.jpg",
+		"mapa": "mapa.jpg",
 		"fondo": "wallpaper/wp1.jpg",
 		"fondos": [
 			"wallpaper/wp2.jpg",
@@ -32,35 +32,35 @@
 		],
 		"menu": {
 			"sushi": {
-				"img":"menu/sushi.jpg",
-				"img2":"menu/sushi1.jpg"
+				"img": "menu/sushi.jpg",
+				"img2": "menu/sushi1.jpg"
 			},
 			"arroz": {
-				"img":"menu/sushi.jpg",
-				"img2":"menu/sushi1.jpg"
+				"img": "menu/sushi.jpg",
+				"img2": "menu/sushi1.jpg"
 			},
 			"pescado": {
-				"img":"menu/sushi.jpg",
-				"img2":"menu/sushi1.jpg"
+				"img": "menu/sushi.jpg",
+				"img2": "menu/sushi1.jpg"
 			},
 			"langostinos": {
-				"img":"menu/sushi.jpg",
-				"img2":"menu/sushi1.jpg"
+				"img": "menu/sushi.jpg",
+				"img2": "menu/sushi1.jpg"
 			}
 		}
 	},
 	"redes": {
 		"instagram": {
 			"usuario": "langostinos",
-			"link": "https://www.instagram.com/langostinos/"
+			"link": "https://www.instagram.com/restaurante.langostinos/"
 		},
 		"tiktok": {
 			"usuario": "langostinos",
-			"link": "https://www.tiktok.com/@langostinos?lang=es"
+			"link": "https://www.tiktok.com/@langostinos.com"
 		},
 		"youtube": {
 			"usuario": "langostinos",
-			"link": "https://www.youtube.com/channel/UC9b7V0b4nJ9kCQd2cY5tXpQ"
+			"link": "https://www.youtube.com"
 		},
 		"whatsapp": {
 			"usuario": "Langostinos.com",
@@ -76,7 +76,7 @@
 				"nombre": "Patacón en salsa",
 				"descripcion": "3 porciones de patacones acompañados de una de las siguientes salsas",
 				"costo": "10000",
-				"opciones": ["Hogao","Camarones","Tártara","guacamole"]
+				"opciones": ["Hogao", "Camarones", "Tártara", "guacamole"]
 			},
 			{
 				"nombre": "Anillos de cebolla",
@@ -123,7 +123,7 @@
 		"Pescados": [
 			{
 				"descripcion": "Con opciones desde 35.000 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada. Algunos pueden ser preparados en salsa o fritos.",
-				"opciones":[
+				"opciones": [
 					"Frito",
 					"En salsa",
 					"Salsa de camarones",
@@ -237,26 +237,17 @@
 			{
 				"nombre": "De la casa",
 				"descripcion": "Servido en aguacate relleno con camarones en salsa roja",
-				"opciones": [
-					"Mediano 18.000",
-					"Grande 25.000"
-				]
+				"opciones": ["Mediano 18.000", "Grande 25.000"]
 			},
 			{
 				"nombre": "Coctel de camarones",
 				"descripcion": "Servidos con salsa roja",
-				"opciones": [
-					"Mediano 18.000",
-					"Grande 25.000"
-				]
+				"opciones": ["Mediano 18.000", "Grande 25.000"]
 			},
 			{
 				"nombre": "Coctel de langostinos",
 				"descripcion": "servidos en Salsa golf",
-				"opciones": [
-					"Mediano 25.000",
-					"Grande 30.000"
-				]
+				"opciones": ["Mediano 25.000", "Grande 30.000"]
 			}
 		]
 	},

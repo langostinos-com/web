@@ -1,6 +1,6 @@
 <template>
-	<div class="d-flex w-100">
-		<div class="piePag justify-content-between" style="font-family: 'Times New Roman', Times, serif; color: #00253E;">
+	<div class="d-flex w-100 py-3">
+		<div class="piePag justify-content-between shadow-lg rounded-3" style="font-family: 'Times New Roman', Times, serif; color: #00253E;">
 			<img class="mx-auto d-block" :src="datos.imagenes.empresa.logotipoOscuro" alt="langostinos.com" style="height: 60px;">
 			<div class="text-center">
 				<div>{{ datos.info.direccion }}</div>
@@ -71,7 +71,7 @@
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	padding: 1rem 1rem 0rem 1rem;
+	padding: 1rem 1rem 0.5rem 1rem;
 }
 @media ( max-width: 500px ) {
 	.piePag {
