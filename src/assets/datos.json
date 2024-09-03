@@ -68,188 +68,194 @@
 		}
 	},
 	"menuPrincipal": {
-		"Entradas": [
-			{
-				"descripcion": "Excelentes platos para iniciar la cena"
-			},
-			{
-				"nombre": "Patacón en salsa",
-				"descripcion": "3 porciones de patacones acompañados de una de las siguientes salsas",
-				"costo": "10000",
-				"opciones": ["Hogao", "Camarones", "Tártara", "guacamole"]
-			},
-			{
-				"nombre": "Anillos de cebolla",
-				"descripcion": "Apanados acompañados con salsa tártara",
-				"costo": "10000",
-				"opciones": []
-			}
-		],
-		"Langostinos": [
-			{
-				"descripción": "La especialidad de la casa, con arroz según elección, patacones o papas a la francesa y ensalada"
-			},
-			{
-				"nombre": "Langostinos almendrados",
-				"descripcion": "Cocinados en salsa de almendras y vino blanco",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Langostinos al curry",
-				"descripcion": "Langostinos con curry y salsa de coco",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Langostinos a la diabla",
-				"descripcion": "Langostinos con salsa en pasta de tomate, pimienta y vino",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Langostinos a la española",
-				"descripcion": "Langostinos apanados acompañados con salsa tártara",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Langostinos monseñor",
-				"descripcion": "En salsa holandesa, vino blanco y brandi.",
-				"costo": ""
-			},
-			{
-				"nombre": "Langostinos al ajillo",
-				"descripcion": "Cocinados en salsa de ajo y vino",
-				"costo": "40000"
-			}
-		],
-		"Pescados": [
-			{
-				"descripcion": "Con opciones desde 35.000 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada. Algunos pueden ser preparados en salsa o fritos.",
-				"opciones": [
-					"Frito",
-					"En salsa",
-					"Salsa de camarones",
-					"Salsa marinera",
-					"Endiablado"
-				]
-			},
-			{
-				"nombre": "Salmon",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Robalo entero",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Pargo rojo",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Trucha",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Mojarra",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Sierra",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Picuda",
-				"costo": "40000"
-			}
-		],
-		"Cazuelas": [
-			{
-				"descripcion": "Excelentes preparaciones acompañadas con arroz a elección y patacones. [¡Plato muy caliente!]"
-			},
-			{
-				"nombre": "Cazuela mixta",
-				"descripcion": "Variedad de mariscos en salsa de bisque (Salsa hecha con mariscos y un toque de brandy)",
-				"costo": "35000"
-			},
-			{
-				"nombre": "Cazuela langostinos",
-				"descripcion": "Con salsa al wiski",
-				"costo": "40000"
-			},
-			{
-				"nombre": "Cazuela del chef",
-				"descripcion": "Cazuela de camarones en salsa base con dados de carne y pechuga",
-				"costo": "35000"
-			}
-		],
-		"Arroces": [
-			{
-				"descripcion": "Variedad de platos de arroz acompañados con ensalada, patacones y papas a la francesa."
-			},
-			{
-				"nombre": "A la marinera",
-				"descripcion": "Arroz surtido de mariscos y verduras",
-				"costo": "35000"
-			},
-			{
-				"nombre": "Endiablado",
-				"descripcion": "Con mariscos picantes y filete apanado",
-				"costo": "35000"
-			},
-			{
-				"nombre": "Con camarón",
-				"descripcion": "Arroz acompañado de camarones y verduras",
-				"costo": "35000"
-			},
-			{
-				"nombre": "Con langostinos",
-				"descripcion": "Arroz acompañado de langostinos y verduras",
-				"costo": "40000"
-			}
-		],
-		"Carnes": [
-			{
-				"descripcion": "Todas las carnes a la parrilla. Acompañados con arroz a elección, papas a la francesa y ensalada"
-			},
-			{
-				"nombre": "Churrasco",
-				"costo": "35000"
-			},
-			{
-				"nombre": "Lomo valluno",
-				"costo": "35000"
-			},
-			{
-				"nombre": "Pechuga a la plancha",
-				"costo": "30000"
-			},
-			{
-				"nombre": "Pechuga con salsa de champiñones",
-				"costo": "35000"
-			},
-			{
-				"nombre": "Pechuga al curry",
-				"costo": "35000"
-			}
-		],
-		"Ceviches": [
-			{
-				"descripcion": "Acompañados con galletas de sal o patacón y gaseosa"
-			},
-			{
-				"nombre": "De la casa",
-				"descripcion": "Servido en aguacate relleno con camarones en salsa roja",
-				"opciones": ["Mediano 18.000", "Grande 25.000"]
-			},
-			{
-				"nombre": "Coctel de camarones",
-				"descripcion": "Servidos con salsa roja",
-				"opciones": ["Mediano 18.000", "Grande 25.000"]
-			},
-			{
-				"nombre": "Coctel de langostinos",
-				"descripcion": "servidos en Salsa golf",
-				"opciones": ["Mediano 25.000", "Grande 30.000"]
-			}
-		]
+		"Entradas": {
+			"descripcion": "Excelentes platos para iniciar la cena",
+			"platos": [
+				{
+					"nombre": "Patacón en salsa",
+					"descripcion": "3 porciones de patacones acompañados de una de las siguientes salsas",
+					"costo": "10",
+					"opciones": ["Hogao", "Camarones", "Tártara", "guacamole"]
+				},
+				{
+					"nombre": "Anillos de cebolla",
+					"descripcion": "Apanados acompañados con salsa tártara",
+					"costo": "10",
+					"opciones": []
+				}
+			]
+		},
+		"Langostinos": {
+			"descripcion": "La especialidad de la casa, con arroz según elección, patacones o papas a la francesa y ensalada",
+			"platos": [
+				{
+					"nombre": "Langostinos almendrados",
+					"descripcion": "Cocinados en salsa de almendras y vino blanco",
+					"costo": "40"
+				},
+				{
+					"nombre": "Langostinos al curry",
+					"descripcion": "Langostinos con curry y salsa de coco",
+					"costo": "40"
+				},
+				{
+					"nombre": "Langostinos a la diabla",
+					"descripcion": "Langostinos con salsa en pasta de tomate, pimienta y vino",
+					"costo": "40"
+				},
+				{
+					"nombre": "Langostinos a la española",
+					"descripcion": "Langostinos apanados acompañados con salsa tártara",
+					"costo": "40"
+				},
+				{
+					"nombre": "Langostinos monseñor",
+					"descripcion": "En salsa holandesa, vino blanco y brandi.",
+					"costo": "40"
+				},
+				{
+					"nombre": "Langostinos al ajillo",
+					"descripcion": "Cocinados en salsa de ajo y vino",
+					"costo": "40"
+				}
+			]
+		},
+		"Pescados": {
+			"descripcion": "Con opciones desde 35 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada. Algunos pueden ser preparados en salsa o fritos.",
+			"opciones": [
+				"Frito",
+				"En salsa",
+				"Salsa de camarones",
+				"Salsa marinera",
+				"Endiablado"
+			],
+			"platos": [
+				{
+					"nombre": "Salmon",
+					"costo": "40"
+				},
+				{
+					"nombre": "Bagre",
+					"costo": "40"
+				},
+				{
+					"nombre": "Robalo entero",
+					"costo": "Según tamaño"
+				},
+				{
+					"nombre": "Pargo rojo",
+					"costo": "Según tamaño"
+				},
+				{
+					"nombre": "Trucha",
+					"costo": "Según tamaño"
+				},
+				{
+					"nombre": "Mojarra",
+					"costo": "Según tamaño"
+				},
+				{
+					"nombre": "Sierra",
+					"costo": "Según tamaño"
+				},
+				{
+					"nombre": "Picuda",
+					"costo": "Según tamaño"
+				}
+			]
+		},
+		"Cazuelas": {
+			"descripcion": "Excelentes preparaciones acompañadas con arroz a elección y patacones. [¡Plato muy caliente!]",
+			"platos": [
+				{
+					"nombre": "Cazuela mixta",
+					"descripcion": "Variedad de mariscos en salsa de bisque (Salsa hecha con mariscos y un toque de brandy)",
+					"costo": "35"
+				},
+				{
+					"nombre": "Cazuela langostinos",
+					"descripcion": "Con salsa al wiski",
+					"costo": "40"
+				},
+				{
+					"nombre": "Cazuela del chef",
+					"descripcion": "Cazuela de camarones en salsa base con dados de carne y pechuga",
+					"costo": "35"
+				}
+			]
+		},
+		"Arroces": {
+			"descripcion": "Variedad de platos de arroz acompañados con ensalada, patacones y papas a la francesa.",
+			"platos": [
+				{
+					"nombre": "A la marinera",
+					"descripcion": "Arroz surtido de mariscos y verduras",
+					"costo": "35"
+				},
+				{
+					"nombre": "Endiablado",
+					"descripcion": "Con mariscos picantes y filete apanado",
+					"costo": "35"
+				},
+				{
+					"nombre": "Con camarón",
+					"descripcion": "Arroz acompañado de camarones y verduras",
+					"costo": "35"
+				},
+				{
+					"nombre": "Con langostinos",
+					"descripcion": "Arroz acompañado de langostinos y verduras",
+					"costo": "40"
+				}
+			]
+		},
+		"Carnes":{
+			"descripcion": "Todas las carnes a la parrilla. Acompañados con arroz a elección, papas a la francesa y ensalada",
+			"platos": [
+				{
+					"nombre": "Churrasco",
+					"costo": "35"
+				},
+				{
+					"nombre": "Lomo valluno",
+					"costo": "35"
+				},
+				{
+					"nombre": "Pechuga a la plancha",
+					"costo": "30"
+				},
+				{
+					"nombre": "Pechuga con salsa de champiñones",
+					"costo": "35"
+				},
+				{
+					"nombre": "Pechuga al curry",
+					"costo": "35"
+				}
+			]
+		},
+		"Ceviches": {
+			"descripcion": "Acompañados con galletas de sal o patacón y gaseosa",
+			"platos": [
+				{
+					"nombre": "De la casa",
+					"descripcion": "Servido en aguacate relleno con camarones en salsa roja",
+					"costo": "25"
+				},
+				{
+					"nombre": "Coctel de camarones",
+					"descripcion": "Servidos con salsa roja",
+					"costo": "25",
+					"costo2": "18"
+				},
+				{
+					"nombre": "Coctel de langostinos",
+					"descripcion": "servidos en Salsa golf",
+					"costo": "25",
+					"costo2": "18"
+				}
+			]
+		}
 	},
 	"Bebidas": {
 		"Cocteles": [

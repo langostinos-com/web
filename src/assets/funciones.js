@@ -3,13 +3,9 @@ import router from "@/Router";
 
 //Funciones de uso general
 function toInicio() {
-	document.body.style.backgroundColor = "#00253E";
-	document.body.style.color = "whitesmoke";
 	router.push("/");
 }
 function toMenu() {
-	document.body.style.backgroundColor = "white";
-	document.body.style.color = "#00253E";
 	router.push("/menu");
 }
 function toContacto() {
