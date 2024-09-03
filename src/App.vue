@@ -1,10 +1,10 @@
 <template>
-	<FondoPag class="position-fixed w-100 h-100"/>
-	<div class="position-absolute w-100 h-100">
-		<RouterView />
-		<BarraFooter />
+	<BarraInicio class="barra position-fixed"/>
+	<FondoPag class="position-fixed"/>
+	<div class="position-relative">
+		<RouterView/>
+		<BarraFooter/>
 	</div>
-	<BarraInicio class="barra position-fixed w-100"/>
 </template>
 
 <script>

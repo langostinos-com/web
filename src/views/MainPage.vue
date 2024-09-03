@@ -1,16 +1,14 @@
 <template>
-	<div class="w-100 h-100">
-		<CarouselMain class="w-100 h-75 position-absolute" style="min-height: 550px"/>
-		<SobreCarousel class="w-100 h-75 position-absolute" style="min-height: 500px; min-width: 250px;"/>
-		<div class="w-100 h-75" style="min-width: 250px; min-height: 550px;"/>
-		<div class="text-center w-100 align-content-center" style="height: 400px;">
-			<h1 class="titulo">{{info.nombre}}</h1>
-			<p class="parrafo my-5">{{info.eslogan}}</p>
-			<button type="button" class="btn botonContacto d-block mx-auto" @click="funcion.toContacto">Escribenos</button>
-		</div>
-		<InfoBox/>
-		<VitrinaMain/>
+	<CarouselMain class="position-absolute carrusel"/>
+	<SobreCarousel class="position-absolute carrusel"/>
+	<div class="carrusel"/>
+	<div class="text-center w-100 align-content-center" style="height: 400px;">
+		<h1 class="titulo">{{info.nombre}}</h1>
+		<p class="parrafo my-5">{{info.eslogan}}</p>
+		<button type="button" class="btn botonContacto d-block mx-auto" @click="funcion.toContacto">Escribenos</button>
 	</div>
+	<InfoBox/>
+	<VitrinaMain/>
 </template>
 
 <script>
@@ -37,4 +35,10 @@ export default {
 	},
 }
 </script>
-<style></style>
+<style>
+.carrusel {
+	width: 100%;
+	height: 75vh;
+	min-height: 550px;
+}
+</style>

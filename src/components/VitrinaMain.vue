@@ -1,5 +1,5 @@
 <template>
-	<div class="w-100 p-2">
+	<div class="w-100 px-2 py-5">
 		<div class="vitrina gap-2">
 			<FichaVitrina class="p-0 m-0" v-for="(data, key) in imagenes.menu" :key="key + 'vit'" :data="data" :nombre="key" />
 		</div>

@@ -1,5 +1,5 @@
 <template>
-	<div id="BarraInicio">
+	<div id="BarraInicio" class="w-100">
 		<nav class="navbar p-2 justify-content-center">
 			<div class="rounded-3 d-md-none container flex-nowrap shadow" style="min-width: fit-content; background-color: #00253E;">
 				<img :src="imagenes.empresa.logotipo" style="height:35px" alt="Langostinos.com"/>
