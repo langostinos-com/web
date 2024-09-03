@@ -31,14 +31,22 @@
 			"wallpaper/wp5.jpg"
 		],
 		"menu": {
-			"suhi": "menu/suhi.webp",
-			"suhi2": "menu/suhi2.webp",
-			"arroz": "menu/arroz.webp",
-			"arroz2": "menu/arroz2.webp",
-			"pescado": "menu/pescado.webp",
-			"pescado2": "menu/pescado2.webp",
-			"langostinos": "menu/langostinos.webp",
-			"langostinos2": "menu/langostinos2.webp"
+			"sushi": {
+				"img":"menu/sushi.jpg",
+				"img2":"menu/sushi1.jpg"
+			},
+			"arroz": {
+				"img":"menu/sushi.jpg",
+				"img2":"menu/sushi1.jpg"
+			},
+			"pescado": {
+				"img":"menu/sushi.jpg",
+				"img2":"menu/sushi1.jpg"
+			},
+			"langostinos": {
+				"img":"menu/sushi.jpg",
+				"img2":"menu/sushi1.jpg"
+			}
 		}
 	},
 	"redes": {

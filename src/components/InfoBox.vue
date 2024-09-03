@@ -31,7 +31,7 @@
 			</ul>
 		</div>
 		<div class="mapa rounded-3" @click="funcion.toMap" style="color: blue;">
-			<img class="w-100" :src="imagenes.mapa" alt="mapa">
+			<img class="w-100 h-100" :src="imagenes.mapa" alt="mapa" style="object-fit: cover;">
 			<div class="overlayMap text-center w-100 align-content-center">
 				<div class="fs-1 d-block fst-italic">
 					<i class="bi bi-geo-alt me-1"></i>

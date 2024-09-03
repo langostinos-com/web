@@ -1,7 +1,10 @@
-import { createApp } from 'vue'
+import { createApp, ref } from 'vue'
 import router from './Router.js'
 import App from './App.vue'
 import './assets/styles.css'
 
+const app = createApp(App);
 
-createApp(App).use(router).mount('#app')
+app.use(router);
+app.config.globalProperties.$contadorGlobal = ref("a");
+app.mount('#app');

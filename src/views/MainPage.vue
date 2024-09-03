@@ -9,6 +9,7 @@
 			<button type="button" class="btn botonContacto d-block mx-auto" @click="funcion.toContacto">Escribenos</button>
 		</div>
 		<InfoBox/>
+		<VitrinaMain/>
 	</div>
 </template>
 
@@ -18,6 +19,7 @@ import funcion from "@/assets/funciones.js";
 import CarouselMain from "@/components/CarouselMain.vue";
 import SobreCarousel from "@/components/SobreCarousel.vue";
 import InfoBox from "@/components/InfoBox.vue";
+import VitrinaMain from "@/components/VitrinaMain.vue";
 
 export default {
 	data() {
@@ -29,7 +31,8 @@ export default {
 	components: {
 		CarouselMain,
 		SobreCarousel,
-		InfoBox
+		InfoBox,
+		VitrinaMain,
 	},
 }
 </script>
