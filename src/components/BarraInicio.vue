@@ -17,7 +17,7 @@
 				<button type="button" class="btn botonPedir w-25 text-nowrap" @click="funcion.toWp" style="height: 50px; font-family: 'Times New Roman', Times, serif;">¡Pide ahora!</button>
 			</div>
 		</nav>
-		<div class="offcanvas offcanvas-end w-75 shadow rounded-start-3 justify-content-between pb-5 px-3 overflow-y-auto" tabindex="-1" id="MenuCompacto" aria-labelledby="MenuCompacto">
+		<div class="offcanvas offcanvas-end w-75 shadow rounded-start-3 justify-content-between p-3 overflow-y-auto" tabindex="-1" id="MenuCompacto" aria-labelledby="MenuCompacto">
 			<div>
 				<div class="offcanvas-header justify-content-around">
 					<img type="button" :src="imagenes.empresa.logotipoOscuro" style="height:9vw;" alt="Langostinos.com" data-bs-dismiss="offcanvas"/>
@@ -29,7 +29,18 @@
 				<button type="button" data-bs-dismiss="offcanvas" class="btn text-start border-0" @click="funcion.toMenu" >Menu</button>
 				<button type="button" data-bs-dismiss="offcanvas" class="btn text-start border-0" @click="funcion.toContacto" >Contacto</button>
 			</div>
-			<button type="button" class="btn btn-lg w-100" @click="funcion.toWp">¡Pide ahora!</button>
+			<div>
+				<button type="button" class="btn btn-lg w-100" @click="funcion.toWp">¡Pide ahora!</button>
+				<div class="text-center fst-italic d-sm-flex gap-5 mt-3" style="font-size: small;">
+				<div >
+					© Copyrights 2024 Langostinos.com - All Rights Reserved
+				</div>
+				<a href="https://github.com/leoleguizamon97" class="text-nowrap text-decoration-none" style="color: #00253E;"  target="_blank">
+					<i class="bi bi-github"></i>
+					@leoleguizamon97
+				</a>
+			</div>
+			</div>
 		</div>
 	</div>
 </template>

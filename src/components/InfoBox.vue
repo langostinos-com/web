@@ -1,5 +1,5 @@
 <template>
-	<div class="infoBox">
+	<div class="infoBox shadow">
 		<div class="presentacion">
 			<div class="fs-1 fst-italic mb-5">{{ info.invitacion }}</div>
 			<div class="fs-4">{{ info.texto }}</div>
@@ -30,7 +30,7 @@
 				<li>{{ info.horarioFin }}</li>
 			</ul>
 		</div>
-		<div class="mapa rounded-3 w-100 h-100 align-self-center" @click="funcion.toMap" style="color: blue; max-height: 550px;">
+		<div class="mapa rounded-3 w-100 h-100 align-self-center shadow" @click="funcion.toMap" style="color: blue; max-height: 550px;">
 			<img class="w-100 h-100" :src="imagenes.mapa" alt="mapa" style="object-fit: cover;">
 			<div class="overlayMap text-center w-100 align-content-center">
 				<div class="fs-1 d-block fst-italic">

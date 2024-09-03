@@ -28,7 +28,6 @@
 					<i class="bi bi-github"></i>
 					@leoleguizamon97
 				</a>
-
 			</div>
 		</div>
 

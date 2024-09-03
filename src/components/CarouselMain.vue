@@ -1,5 +1,5 @@
 <template>
-	<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000" data-pause="true">
+	<div id="mainCarousel" class="carousel slide shadow" data-bs-ride="carousel" data-bs-interval="10000" data-pause="true">
 		<div class="carousel-inner h-100 w-100">
 			<div class="carousel-item active">
 				<img :src=imagenes.fondo  class="h-100 w-100" :alt=imagenes.fondo style="object-fit: cover;"/>
