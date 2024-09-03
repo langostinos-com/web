@@ -16,6 +16,7 @@
 <script>
 import datos from "@/assets/datos.json";
 import funcion from "@/assets/funciones.js";
+
 import CarouselMain from "@/components/CarouselMain.vue";
 import SobreCarousel from "@/components/SobreCarousel.vue";
 import InfoBox from "@/components/InfoBox.vue";

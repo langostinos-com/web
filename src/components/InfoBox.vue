@@ -1,8 +1,8 @@
 <template>
 	<div class="infoBox">
 		<div class="presentacion">
-			<div class="fs-2 fst-italic mb-5">{{ info.invitacion }}</div>
-			<div class="fs-5">{{ info.texto }}</div>
+			<div class="fs-1 fst-italic mb-5">{{ info.invitacion }}</div>
+			<div class="fs-4">{{ info.texto }}</div>
 		</div>
 		<div class="info">
 			<hr>
@@ -16,9 +16,9 @@
 				<i class="bi bi-whatsapp me-1"></i>
 				{{ info.celular }}
 			</div>
-			<div>
-				<i class="bi bi-envelope me-1"></i>
-				<a :href="'mailto:'+info.email">
+			<div class="text-nowrap">
+				<i class="bi bi-envelope me-2"></i>
+				<a class="fs-6" :href="'mailto:'+info.email" style="color: #00253E;">
 					{{ info.email }}
 				</a>
 			</div>
@@ -30,7 +30,7 @@
 				<li>{{ info.horarioFin }}</li>
 			</ul>
 		</div>
-		<div class="mapa rounded-3" @click="funcion.toMap" style="color: blue;">
+		<div class="mapa rounded-3 w-100 h-100 align-self-center" @click="funcion.toMap" style="color: blue; max-height: 550px;">
 			<img class="w-100 h-100" :src="imagenes.mapa" alt="mapa" style="object-fit: cover;">
 			<div class="overlayMap text-center w-100 align-content-center">
 				<div class="fs-1 d-block fst-italic">
