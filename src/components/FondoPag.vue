@@ -1,5 +1,5 @@
 <template>
-	<div class="w-100 h-100 d-flex justify-content-between">
+	<div class="w-100 h-100 d-flex justify-content-between" style="opacity: 0.35;">
 		<div class="d-flex flex-column  overflow-hidden">
 			<img class="align-self-start mb-4" style="width: max-content;" src="@/assets/fondos/romero4.png" alt="">
 			<img class="align-self-start mb-4" style="width: max-content;" src="@/assets/fondos/naranja2.png" alt="">
