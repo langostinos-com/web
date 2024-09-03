@@ -24,7 +24,7 @@ export default {
 			} else if (this.contador >= 1) {
 				this.contador = 0;
 				this.$contadorGlobal.value = "";
-				this.router.push("/menu:" + this.nombre);
+				this.router.push("/menu" , this.nombre);
 			}
 		},
 	},
