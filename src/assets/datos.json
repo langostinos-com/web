@@ -121,7 +121,7 @@
 			]
 		},
 		"Pescados": {
-			"descripcion": "Con opciones desde 35 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada. Algunos pueden ser preparados en salsa o fritos.",
+			"descripcion": "Con opciones desde $35.000 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada.",
 			"opciones": [
 				"Frito",
 				"En salsa",
@@ -303,6 +303,92 @@
 			}
 		]
 	},
-	"Sushis": {},
+	"menuSushi": {
+		"Makis":{
+			"descripcion": "Makis envueltos de arroz y alga nori",
+			"platos": [
+				{
+					"nombre": "Makis camaron",
+					"descripcion": "Queso, aguacate y camaron",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Makis palmito de cangrejo",
+					"descripcion": "Con queso, aguacate y palmito de cangrejo",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Makis salmon",
+					"descripcion": "Con queso, aguacate y salmon",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Makis langostinos",
+					"descripcion": "Con queso, aguacate y langostinos",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Makis pollo",
+					"descripcion": "Con queso, aguacate y pollo",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Langos tropical",
+					"descripcion": "Con queso, fresa y mango",
+					"costo": "XXXX"
+				}
+			]
+		},
+		"Nigiris": {
+			"descripcion": "",
+			"platos": [
+				{
+					"nombre": "Salmon",
+					"descripcion": "",
+					"costo": ""
+				},
+				{
+					"nombre": "Camaron",
+					"descripcion": "",
+					"costo": ""
+				},
+				{
+					"nombre": "Langostino",
+					"descripcion": "",
+					"costo": ""
+				},
+				{
+					"nombre": "Pollo",
+					"descripcion": "",
+					"costo": ""
+				},
+				{
+					"nombre": "Tropical",
+					"descripcion": "",
+					"costo": ""
+				}
+			]
+		},
+		"Combos": {
+			"descripcion": "Combos de Makis a tu elección",
+			"platos": [
+				{
+					"nombre": "Festival Langos",
+					"descripcion": "40 piezas de rollos a tu elección",
+					"costo": ""
+				},
+				{
+					"nombre": "Super festival Langos",
+					"descripcion": "80 piezas de rollos a tu elección",
+					"costo": ""
+				},
+				{
+					"nombre": "",
+					"descripcion": "",
+					"costo": ""
+				}
+			]
+		}
+	},
 	"Otros": {}
 }

@@ -13,7 +13,7 @@
 	</ul>
 	<div class="tab-content" id="pills-tabContent">
 	<div class="tab-pane fade show active" id="pills-principal" role="tabpanel" aria-labelledby="pills-principal-tab" tabindex="0"><ListaMenu :datos = "datos.menuPrincipal"/></div>
-	<div class="tab-pane fade" id="pills-sushi" role="tabpanel" aria-labelledby="pills-sushi-tab" tabindex="0"><ListaMenu :datos = "datos.menuSushi"/> <Proximamente/></div>
+	<div class="tab-pane fade" id="pills-sushi" role="tabpanel" aria-labelledby="pills-sushi-tab" tabindex="0"><ListaMenu :datos = "datos.menuSushi"/></div>
 	<div class="tab-pane fade" id="pills-bebidas" role="tabpanel" aria-labelledby="pills-bebidas-tab" tabindex="0"><ListaMenu :datos = "datos.menuBebidas"/> <Proximamente/></div>
 	</div>
 </template>
