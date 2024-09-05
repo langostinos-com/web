@@ -5,7 +5,7 @@
 				<div class="w-100 h-100 p-3 rounded rounded-3 fichaMenu">
 					<div class="fs-1 text-center mb-2" style="font-family: adelia;">{{ key }}</div>
 					<p></p>
-					<div class="text-center" style="font-size: small;">{{ item.descripcion }}</div>
+					<div class="text-center" style="font-size: medium;">{{ item.descripcion }}</div>
 					<p></p>
 					<div v-for="(plato, key2) in item.platos" :key="key2">
 						<div class="d-flex flex-nowrap justify-content-between fw-bold" style="font-size: larger;">
