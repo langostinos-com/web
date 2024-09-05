@@ -1,7 +1,8 @@
 <template>
 	<div class="position-relative overflow-hidden rounded-3 carta shadow-lg" @click="cuentaToques">
 		<div class="h-100 w-100 d-flex align-items-center" style="background-color: black;">
-			<div class="w-100 text-center fs-3">Ver menú de {{ nombre }}</div>
+			<div v-if="nombre == 'principal'" class="w-100 text-center fs-3">Ver menú {{ nombre }}</div>
+			<div v-else class="w-100 text-center fs-3">Ver menú de {{ nombre }}</div>
 		</div>
 		<img :src="data.img2" class="h-100 w-100 position-absolute" style="object-fit: cover; opacity: 0.5;" :alt="nombre + '2'">
 		<img :src="data.img" class="h-100 w-100 position-absolute imgCarta" :alt="nombre">
@@ -59,7 +60,6 @@ export default {
 	flex-grow: 1;
 	flex-basis: 25%;
 	display: flex;
-	font-family: 'Times New Roman', Times, serif;
 }
 
 .carta:hover {

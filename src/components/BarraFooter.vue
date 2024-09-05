@@ -1,6 +1,6 @@
 <template>
 	<div class="d-flex w-100 py-3">
-		<div class="piePag justify-content-between shadow-lg rounded-3" style="font-family: 'Times New Roman', Times, serif; color: #00253E;">
+		<div class="piePag justify-content-between shadow-lg rounded-3" style="color: #00253E;">
 			<img class="mx-auto d-block" :src="datos.imagenes.empresa.logotipoOscuro" alt="langostinos.com" style="height: 60px;">
 			<div class="text-center">
 				<div>{{ datos.info.direccion }}</div>
@@ -27,6 +27,10 @@
 				<a href="https://github.com/leoleguizamon97" class="text-nowrap text-decoration-none" style="color: #00253E;"  target="_blank">
 					<i class="bi bi-github"></i>
 					@leoleguizamon97
+				</a>
+				<a href="https://davidesigns.framer.website/" class="text-nowrap text-decoration-none" style="color: #00253E;"  target="_blank">
+					<img src="../assets/framer.svg" alt="framer">
+					@davidesigns
 				</a>
 			</div>
 		</div>

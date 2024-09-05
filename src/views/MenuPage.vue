@@ -44,7 +44,6 @@ export default {
 </script>
 <style>
 .nav-pills {
-	font-family: 'Times New Roman', Times, serif;
 	padding: 0.2rem;
 }
 .nav-link  {

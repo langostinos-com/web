@@ -23,29 +23,29 @@
 			"icono": "icono.ico"
 		},
 		"mapa": "mapa.jpeg",
-		"fondo": "wallpaper/wp1.jpg",
+		"fondo": "wallpaper/wp1.png",
 		"fondos": [
-			"wallpaper/wp2.jpg",
-			"wallpaper/wp3.jpg",
-			"wallpaper/wp4.jpg",
-			"wallpaper/wp5.jpg"
+			"wallpaper/wp2.png",
+			"wallpaper/wp3.png",
+			"wallpaper/wp4.png",
+			"wallpaper/wp5.png"
 		],
 		"menu": {
-			"sushi": {
-				"img": "menu/sushi.jpg",
-				"img2": "menu/sushi1.jpg"
+			"principal": {
+				"img": "menu/sushi.png",
+				"img2": "menu/sushi1.png"
 			},
-			"arroz": {
-				"img": "menu/sushi.jpg",
-				"img2": "menu/sushi1.jpg"
+			"suhi": {
+				"img": "menu/sushi.png",
+				"img2": "menu/sushi1.png"
 			},
-			"pescado": {
-				"img": "menu/sushi.jpg",
-				"img2": "menu/sushi1.jpg"
+			"bebidas": {
+				"img": "menu/sushi.png",
+				"img2": "menu/sushi1.png"
 			},
-			"langostinos": {
-				"img": "menu/sushi.jpg",
-				"img2": "menu/sushi1.jpg"
+			"adicionales": {
+				"img": "menu/sushi.png",
+				"img2": "menu/sushi1.png"
 			}
 		}
 	},

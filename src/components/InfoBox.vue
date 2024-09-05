@@ -25,7 +25,7 @@
 			<p></p>
 			<i class="bi bi-clock me-1"></i>
 			Horario
-			<div class="text-start">
+			<div class="">
 				<div>{{ info.horario }}</div>
 				<div>{{ info.horarioFin }}</div>
 			</div>
