@@ -25,10 +25,10 @@
 			<p></p>
 			<i class="bi bi-clock me-1"></i>
 			Horario
-			<ul class="text-start">
-				<li>{{ info.horario }}</li>
-				<li>{{ info.horarioFin }}</li>
-			</ul>
+			<div class="text-start">
+				<div>{{ info.horario }}</div>
+				<div>{{ info.horarioFin }}</div>
+			</div>
 		</div>
 		<div class="mapa rounded-3 w-100 h-100 align-self-center shadow" @click="funcion.toMap" style="color: blue; max-height: 550px;">
 			<img class="w-100 h-100" :src="imagenes.mapa" alt="mapa" style="object-fit: cover;">

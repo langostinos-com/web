@@ -28,7 +28,7 @@ export default {
 .vitrina {
 	display: flex;
 	width: 100%;
-	height: 60vh;
+	height: 300px;
 }
 @media (max-width: 768px) {
 	.vitrina {

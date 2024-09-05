@@ -26,9 +26,9 @@
 				<button type="button" data-bs-dismiss="offcanvas" class="btn text-start border-0" @click="funcion.toInicio" >Inicio</button>
 				<button type="button" data-bs-dismiss="offcanvas" class="btn text-start border-0" @click="funcion.toMenu" >Menu</button>
 				<button type="button" data-bs-dismiss="offcanvas" class="btn text-start border-0" @click="funcion.toContacto" >Contacto</button>
-			</div>
+			</div>	
+			<button type="button" class="btn btn-lg w-100" @click="funcion.toWp">¡Pide ahora!</button>
 			<div>
-				<button type="button" class="btn btn-lg w-100" @click="funcion.toWp">¡Pide ahora!</button>
 				<div class="text-center fst-italic d-sm-flex gap-5 mt-3" style="font-size: small;">
 				<div >
 					© Copyrights 2024 Langostinos.com - All Rights Reserved

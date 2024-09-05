@@ -10,8 +10,8 @@
 		"pais": "Colombia",
 		"celular": "3115165374",
 		"email": "contacto@restaurantelangostinos.com",
-		"horario": "Martes a jueves de 11:30 a.m. a 8:00 p.m.",
-		"horarioFin": "Viernes a domingo y feriados de 11:30 a.m. a 10:00 p.m.",
+		"horario": "Martes a jueves: 8:00 p.m.",
+		"horarioFin": "Viernes a domingo: 10:00 p.m.",
 		"mapa": "https://www.google.com/maps/dir/?api=1&origin=&destination=Cra.+91a+%2372a-1,+Bogotá"
 	},
 	"imagenes": {
@@ -22,7 +22,7 @@
 			"logotipoOscuro": "logotipo3.webp",
 			"icono": "icono.ico"
 		},
-		"mapa": "mapa.png",
+		"mapa": "mapa.jpeg",
 		"fondo": "wallpaper/wp1.jpg",
 		"fondos": [
 			"wallpaper/wp2.jpg",
@@ -52,11 +52,11 @@
 	"redes": {
 		"instagram": {
 			"usuario": "langostinos",
-			"link": "https://www.instagram.com/restaurante.langostinos/"
+			"link": "https://www.instagram.com/langostinos.com.co/"
 		},
 		"tiktok": {
 			"usuario": "langostinos",
-			"link": "https://www.tiktok.com/@langostinos.com"
+			"link": "https://www.tiktok.com/@langostinos.com.co"
 		},
 		"youtube": {
 			"usuario": "langostinos",
