@@ -2,23 +2,23 @@
 	<div style="height: 90px"></div>
 	<ul class="nav nav-pills mb-3 justify-content-center gap-2" id="pills-tab" role="tablist">
 		<li class="nav-item" role="presentation">
-			<button class="nav-link active" id="pills-principal-tab" data-bs-toggle="pill" data-bs-target="#pills-principal" type="button" role="tab" aria-controls="pills-principal" aria-selected="true">Principal</button>
+			<button class="nav-link" :class="{ active: categoria == 'principal' }" @click="cambio('principal')" data-bs-toggle="pill" type="button">Principal</button>
 		</li>
 		<li class="nav-item" role="presentation">
-			<button class="nav-link" id="pills-sushi-tab" data-bs-toggle="pill" data-bs-target="#pills-sushi" type="button" role="tab" aria-controls="pills-sushi" aria-selected="false">Sushi</button>
+			<button class="nav-link" :class="{ active: categoria == 'sushi' }" @click="cambio('sushi')" data-bs-toggle="pill" type="button">Sushi</button>
 		</li>
 		<li class="nav-item" role="presentation">
-			<button class="nav-link" id="pills-bebidas-tab" data-bs-toggle="pill" data-bs-target="#pills-bebidas" type="button" role="tab" aria-controls="pills-bebidas" aria-selected="false">Bebidas</button>
+			<button class="nav-link" :class="{ active: categoria == 'bebidas' }" @click="cambio('bebidas')" data-bs-toggle="pill" type="button">Bebidas</button>
 		</li>
 		<li class="nav-item" role="presentation">
-			<button class="nav-link" id="pills-bebidas-tab" data-bs-toggle="pill" data-bs-target="#pills-bebidas" type="button" role="tab" aria-controls="pills-bebidas" aria-selected="false">Adicionales</button>
+			<button class="nav-link" :class="{ active: categoria == 'otros' }" @click="cambio('otros')" data-bs-toggle="pill" type="button">Otros</button>
 		</li>
 	</ul>
-	<div class="tab-content" id="pills-tabContent">
-	<div class="tab-pane fade show active" id="pills-principal" role="tabpanel" aria-labelledby="pills-principal-tab" tabindex="0"><ListaMenu :datos = "datos.menuPrincipal"/></div>
-	<div class="tab-pane fade" id="pills-sushi" role="tabpanel" aria-labelledby="pills-sushi-tab" tabindex="0"><ListaMenu :datos = "datos.menuSushi"/></div>
-	<div class="tab-pane fade" id="pills-bebidas" role="tabpanel" aria-labelledby="pills-bebidas-tab" tabindex="0"><ListaMenu :datos = "datos.menuBebidas"/> <Proximamente/></div>
-	<div class="tab-pane fade" id="pills-bebidas" role="tabpanel" aria-labelledby="pills-bebidas-tab" tabindex="0"><ListaMenu :datos = "datos.menuBebidas"/> <Proximamente/></div>
+	<div class="tab-content">
+		<div class="tab-pane" :class="{ active: categoria == 'sushi' }"><ListaMenu :datos = "datos.menuSushi"/></div>
+		<div class="tab-pane" :class="{ active: categoria == 'principal' }"><ListaMenu :datos = "datos.menuPrincipal"/></div>
+		<div class="tab-pane" :class="{ active: categoria == 'bebidas' }"><ListaMenu :datos = "datos.menuBebidas"/></div>
+		<div class="tab-pane" :class="{ active: categoria == 'otros' }"><ListaMenu :datos = "datos.menuOtros"/></div>
 	</div>
 </template>
 
@@ -30,9 +30,8 @@ import Proximamente from "@/components/Proximamente.vue";
 export default {
 	name: "MenuPage",
 	methods: {
-		onload() {
-			document.body.style.backgroundColor = "whitesmoke";
-			document.body.style.color = "#00253E";
+		cambio(a) {
+			this.$router.push({ path: `/menu/${a}` });
 		}
 	},
 	components: {
@@ -41,8 +40,17 @@ export default {
 	},
 	data() {
 		return {
+			categoria: "",
 			datos
 		}
+	},
+	watch: {
+		$route() {
+			this.categoria = this.$route.params.categoria;
+		}
+	},
+	mounted() {
+		this.categoria = this.$route.params.categoria;
 	}
 }
 </script>

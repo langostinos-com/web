@@ -9,42 +9,38 @@
 		"ciudad": "Bogotá",
 		"pais": "Colombia",
 		"celular": "3115165374",
-		"email": "contacto@restaurantelangostinos.com",
+		"email": "langostinos.com@outlook.com",
 		"horario": "Martes a jueves: 8:00 p.m.",
 		"horarioFin": "Viernes a domingo: 10:00 p.m.",
 		"mapa": "https://www.google.com/maps/dir/?api=1&origin=&destination=Cra.+91a+%2372a-1,+Bogotá"
 	},
 	"imagenes": {
 		"empresa": {
-			"logo": "logo.webp",
-			"logoOscuro": "logo2.webp",
-			"logotipo": "logotipo.webp",
-			"logotipoOscuro": "logotipo3.webp",
-			"icono": "icono.ico"
+			"logo": "/logo.webp",
+			"logoOscuro": "/logo2.webp",
+			"logotipo": "/logotipo.webp",
+			"logotipoOscuro": "/logotipo3.webp",
+			"icono": "/icono.ico"
 		},
-		"mapa": "mapa.jpeg",
-		"fondo": "wallpaper/wp1.png",
-		"fondos": [
-			"wallpaper/wp2.png",
-			"wallpaper/wp3.png",
-			"wallpaper/wp4.png"
-		],
+		"mapa": "/mapa.jpeg",
+		"fondo": "/wallpaper/wp1.jpeg",
+		"fondos": ["/wallpaper/wp2.jpeg", "/wallpaper/wp3.jpeg"],
 		"menu": {
 			"principal": {
-				"img": "menu/sushi.png",
-				"img2": "menu/sushi1.png"
+				"img": "/menu/principal.jpeg",
+				"img2": "menu/principal1.jpeg"
 			},
-			"suhi": {
-				"img": "menu/sushi.png",
-				"img2": "menu/sushi1.png"
+			"sushi": {
+				"img": "/menu/sushi.jpeg",
+				"img2": "/menu/sushi1.jpeg"
 			},
 			"bebidas": {
-				"img": "menu/sushi.png",
-				"img2": "menu/sushi1.png"
+				"img": "/menu/.jpeg",
+				"img2": "/menu/.jpeg"
 			},
-			"adicionales": {
-				"img": "menu/sushi.png",
-				"img2": "menu/sushi1.png"
+			"otros": {
+				"img": "/menu/.jpeg",
+				"img2": "/menu/.jpeg"
 			}
 		}
 	},
@@ -84,6 +80,28 @@
 				}
 			]
 		},
+		"Ceviches": {
+			"descripcion": "Acompañados con galletas de sal o patacón y gaseosa",
+			"platos": [
+				{
+					"nombre": "De la casa",
+					"descripcion": "Servido en aguacate relleno con camarones en salsa roja",
+					"costo": "25"
+				},
+				{
+					"nombre": "Coctel de camarones",
+					"descripcion": "Servidos con salsa roja",
+					"costo": "25",
+					"costo2": "18"
+				},
+				{
+					"nombre": "Coctel de langostinos",
+					"descripcion": "servidos en Salsa golf",
+					"costo": "25",
+					"costo2": "18"
+				}
+			]
+		},
 		"Langostinos": {
 			"descripcion": "La especialidad de la casa, con arroz según elección, patacones o papas a la francesa y ensalada",
 			"platos": [
@@ -120,7 +138,7 @@
 			]
 		},
 		"Pescados": {
-			"descripcion": "Con opciones desde $35.000 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada.",
+			"descripcion": "Con opciones desde $35.000 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada. Algunos pueden ir con las siguientes salsas:",
 			"opciones": [
 				"Frito",
 				"En salsa",
@@ -208,7 +226,7 @@
 				}
 			]
 		},
-		"Carnes":{
+		"Carnes": {
 			"descripcion": "Todas las carnes a la parrilla. Acompañados con arroz a elección, papas a la francesa y ensalada",
 			"platos": [
 				{
@@ -232,83 +250,131 @@
 					"costo": "35"
 				}
 			]
-		},
-		"Ceviches": {
-			"descripcion": "Acompañados con galletas de sal o patacón y gaseosa",
+		}
+	},
+	"menuBebidas": {
+		"Cervezas": {
+			"descripcion": "Las mejores cervezas nacionales e importadas",
 			"platos": [
 				{
-					"nombre": "De la casa",
-					"descripcion": "Servido en aguacate relleno con camarones en salsa roja",
-					"costo": "25"
+					"nombre": "Stella",
+					"costo": "XXXX"
 				},
 				{
-					"nombre": "Coctel de camarones",
-					"descripcion": "Servidos con salsa roja",
-					"costo": "25",
-					"costo2": "18"
+					"nombre": "Corona",
+					"costo": "XXXX"
 				},
 				{
-					"nombre": "Coctel de langostinos",
-					"descripcion": "servidos en Salsa golf",
-					"costo": "25",
-					"costo2": "18"
+					"nombre": "Cerveza nacional",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Cerveza importada",
+					"costo": "XXXX"
+				}
+			]
+		},
+		"Jugos": {
+			"descripcion": "Jugos naturales con pulpa de frutas. sabores según disponibilidad.",
+			"platos": [
+				{
+					"nombre": "Jugo natural en agua",
+					"costo": "5"
+				},
+				{
+					"nombre": "Jugo natural en leche",
+					"costo": "8"
+				},
+				{
+					"nombre": "Limonada Natural",
+					"costo": "5"
+				},
+				{
+					"nombre": "Limonada de coco",
+					"costo": "10"
+				},
+				{
+					"nombre": "Limonada cerezada",
+					"costo": "10"
+				}
+			]
+		},
+		"Cocteles": {
+			"descripcion": "Sensaciones únicas en cada mezcla, perfectas para cualquier ocasión.",
+			"platos": [
+				{
+					"nombre": "Mojito",
+					"descripcion": "Soda, azúcar limón hierbabuena y ron",
+					"costo": "13"
+				},
+				{
+					"nombre": "Margarita",
+					"descripcion": "Tequila, triplesec, limón",
+					"costo": "17"
+				},
+				{
+					"nombre": "Martini",
+					"descripcion": "Ginebra, vermut",
+					"costo": "17"
+				},
+				{
+					"nombre": "Vino caliente",
+					"descripcion": "Vino, astilla de canela, naranja",
+					"costo": "13"
+				},
+				{
+					"nombre": "Copa de vino",
+					"descripcion": "Copa de vino tinto o blanco",
+					"costo": "10"
+				},
+				{
+					"nombre": "Gin tonic",
+					"descripcion": "Ginebra, agua tónica, limón",
+					"costo": "17"
+				},
+				{
+					"nombre": "Destornillador",
+					"descripcion": "Vodka, refresco de naranja, granadina",
+					"costo": "13"
+				},
+				{
+					"nombre": "Cuba libre",
+					"descripcion": "Ron, Coca-cola, limón",
+					"costo": "13"
+				}
+			]
+		},
+		"Otros": {
+			"descripcion": "Refresca tu día con opciones clásicas y naturales.",
+			"platos": [
+				{
+					"nombre": "Botella de Agua",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Botella de Agua con gas",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Coca-cola",
+					"costo": "XXXX"
+				},
+				{
+					"nombre": "Gaseosas Postobón",
+					"descripcion": "Pequeña - Grande",
+					"costo": "XX",
+					"costo2": "XX"
 				}
 			]
 		}
 	},
-	"Bebidas": {
-		"Cocteles": [
-			{
-				"descripcion": ""
-			},
-			{
-				"nombre": "",
-				"descripcion": "",
-				"costo": "",
-				"opciones": []
-			}
-		],
-		"Cervezas": [
-			{
-				"descripcion": ""
-			},
-			{
-				"nombre": "",
-				"descripcion": "",
-				"costo": "",
-				"opciones": []
-			}
-		],
-		"Jugos": [
-			{
-				"descripcion": ""
-			},
-			{
-				"nombre": "",
-				"descripcion": "",
-				"costo": "",
-				"opciones": []
-			}
-		],
-		"Gaseosas": [
-			{
-				"descripcion": ""
-			},
-			{
-				"nombre": "",
-				"descripcion": "",
-				"costo": "",
-				"opciones": []
-			}
-		]
-	},
 	"menuSushi": {
-		"Makis":{
+		"Makis": {
 			"descripcion": "Makis envueltos de arroz y alga nori",
 			"platos": [
 				{
-					"nombre": "Makis camaron",
-					"descripcion": "Queso, aguacate y camaron",
+					"nombre": "Makis camarón",
+					"descripcion": "Queso, aguacate y camarón",
 					"costo": "XXXX"
 				},
 				{
@@ -339,7 +405,7 @@
 			]
 		},
 		"Nigiris": {
-			"descripcion": "",
+			"descripcion": "Deliciosas bolitas de arroz cubiertas de sabor",
 			"platos": [
 				{
 					"nombre": "Salmon",
@@ -347,7 +413,7 @@
 					"costo": "XXXX"
 				},
 				{
-					"nombre": "Camaron",
+					"nombre": "Camarón",
 					"descripcion": "",
 					"costo": "XXXX"
 				},
@@ -358,11 +424,6 @@
 				},
 				{
 					"nombre": "Pollo",
-					"descripcion": "",
-					"costo": "XXXX"
-				},
-				{
-					"nombre": "Tropical",
 					"descripcion": "",
 					"costo": "XXXX"
 				}
@@ -384,5 +445,60 @@
 			]
 		}
 	},
-	"Otros": {}
+	"menuOtros": {
+		"Almuerzo ejecutivo": {
+			"descripcion": "(¡Solo de lunes a viernes!) Sopa, ensalada, arroz, patacón y una de las siguientes opciones",
+			"opciones": [
+				"Cierra frita",
+				"Picuda frita",
+				"Mojarra frita",
+				"Filete apanado",
+				"Azulejo en salsa",
+				"Lenguado"
+			],
+			"platos": [
+				{
+					"nombre": "Plato ejecutivo",
+					"costo": "20"
+				}
+			]
+		},
+		"Adicionales": {
+			"descripcion": "Porciones adicionales para acompañar tus platos",
+			"platos": [
+				{
+					"nombre": "Patacónes",
+					"costo": "5"
+				},
+				{
+					"nombre": "Arroz",
+					"descripcion": "Coco o blanco",
+					"costo": "4"
+				},
+				{
+					"nombre": "Papas a la francesa",
+					"costo": "4"
+				},
+				{
+					"nombre": "Ensalada",
+					"costo": "2"
+				}
+			]
+		},
+		"Consomé": {
+			"descripcion": "Consomé de pescado, pequeño o grande",
+			"platos": [
+				{
+					"nombre": "Consomé con arroz y patacón",
+					"costo": "10",
+					"costo2": "8"
+				},
+				{
+					"nombre": "Consomé",
+					"costo": "8",
+					"costo2": "5"
+				}
+			]
+		}
+	}
 }

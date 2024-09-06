@@ -6,17 +6,27 @@ import ContactoPage from './views/ContactoPage.vue'
 
 const routes = [
 	{ path: '/', component: MainPage },
-	{ path: '/menu', component: MenuPage },
-	{ path: '/contacto', component: ContactoPage }
+	{
+		path: '/menu', component: MenuPage,
+		children: [
+			{ path: ':categoria', component: MenuPage },
+			{ path: '', redirect : '/menu/principal' },			
+		]
+	},
+	{ path: '/contacto', component: ContactoPage },
+	{ path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
 const router = createRouter({
 	history: createWebHistory(),
+	scrollBehavior() {
+		return { top: 0 };
+	},
 	routes
 })
 
 router.beforeEach((to, from, next) => {
-	if(to.path == '/menu') {
+	if (to.path.startsWith('/menu')) {
 		document.body.style.backgroundColor = "whitesmoke";
 		document.body.style.color = "#00253E";
 	} else {
