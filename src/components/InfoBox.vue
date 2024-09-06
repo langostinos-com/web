@@ -30,7 +30,7 @@
 				<div>{{ info.horarioFin }}</div>
 			</div>
 		</div>
-		<div class="mapa rounded-3 w-100 h-100 align-self-center shadow" @click="funcion.toMap" style="color: blue; max-height: 550px;">
+		<div class="mapa rounded-3 w-100 h-100 align-self-center shadow" @click="dobleClick" style="color: blue; max-height: 550px;">
 			<img class="w-100 h-100" :src="imagenes.mapa" alt="mapa" style="object-fit: cover;">
 			<div class="overlayMap text-center w-100 align-content-center">
 				<div class="fs-1 d-block fst-italic">
@@ -47,8 +47,20 @@ import datos from "@/assets/datos.json";
 import funcion from "@/assets/funciones.js";
 
 export default {
+	methods: {
+		dobleClick() {
+			//Solo va si hace click dos veces
+			if (this.contador == 0) {
+				this.contador++;
+			} else if (this.contador == 1) {
+				this.contador = 0;
+				funcion.toMap();
+			}
+		}	
+	},
 	data() {
 		return {
+			contador: 0,
 			info: datos.info,
 			imagenes: datos.imagenes,
 			funcion: funcion

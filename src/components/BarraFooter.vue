@@ -61,6 +61,7 @@
 	align-items: center;
 	display: flex;
 	cursor: pointer;
+	font-family: Arial;
 }
 .icono:hover {
 	background-color: #00253E;

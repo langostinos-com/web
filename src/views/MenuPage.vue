@@ -8,12 +8,16 @@
 			<button class="nav-link" id="pills-sushi-tab" data-bs-toggle="pill" data-bs-target="#pills-sushi" type="button" role="tab" aria-controls="pills-sushi" aria-selected="false">Sushi</button>
 		</li>
 		<li class="nav-item" role="presentation">
-			<button class="nav-link" id="pills-bebidas-tab" data-bs-toggle="pill" data-bs-target="#pills-bebidas" type="button" role="tab" aria-controls="pills-bebidas" aria-selected="false">Otros</button>
+			<button class="nav-link" id="pills-bebidas-tab" data-bs-toggle="pill" data-bs-target="#pills-bebidas" type="button" role="tab" aria-controls="pills-bebidas" aria-selected="false">Bebidas</button>
+		</li>
+		<li class="nav-item" role="presentation">
+			<button class="nav-link" id="pills-bebidas-tab" data-bs-toggle="pill" data-bs-target="#pills-bebidas" type="button" role="tab" aria-controls="pills-bebidas" aria-selected="false">Adicionales</button>
 		</li>
 	</ul>
 	<div class="tab-content" id="pills-tabContent">
 	<div class="tab-pane fade show active" id="pills-principal" role="tabpanel" aria-labelledby="pills-principal-tab" tabindex="0"><ListaMenu :datos = "datos.menuPrincipal"/></div>
 	<div class="tab-pane fade" id="pills-sushi" role="tabpanel" aria-labelledby="pills-sushi-tab" tabindex="0"><ListaMenu :datos = "datos.menuSushi"/></div>
+	<div class="tab-pane fade" id="pills-bebidas" role="tabpanel" aria-labelledby="pills-bebidas-tab" tabindex="0"><ListaMenu :datos = "datos.menuBebidas"/> <Proximamente/></div>
 	<div class="tab-pane fade" id="pills-bebidas" role="tabpanel" aria-labelledby="pills-bebidas-tab" tabindex="0"><ListaMenu :datos = "datos.menuBebidas"/> <Proximamente/></div>
 	</div>
 </template>

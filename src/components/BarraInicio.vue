@@ -10,7 +10,7 @@
 				<div class="gap-2 d-flex w-100 me-2">
 					<button type="button" class="btn botonesBarra" @click="funcion.toInicio" to="/">Inicio</button>
 					<button type="button" class="btn botonesBarra" @click="funcion.toMenu" to="/menu">Menu</button>
-					<button type="button" class="btn botonesBarra" @click="funcion.toContacto" to="/contacto">Reservas</button>
+					<!-- <button type="button" class="btn botonesBarra" @click="funcion.toContacto" to="/contacto">Reservas</button> -->
 				</div>
 				<button type="button" class="btn botonPedir w-50 text-nowrap" @click="funcion.toWp" style="height: 50px;">Contactanos</button>
 			</div>
@@ -25,7 +25,7 @@
 			<div class="d-grid gap-2">
 				<button type="button" data-bs-dismiss="offcanvas" class="btn" @click="funcion.toInicio" >Inicio</button>
 				<button type="button" data-bs-dismiss="offcanvas" class="btn" @click="funcion.toMenu" >Menu</button>
-				<button type="button" data-bs-dismiss="offcanvas" class="btn" @click="funcion.toContacto" >Contacto</button>
+				<!-- <button type="button" data-bs-dismiss="offcanvas" class="btn" @click="funcion.toContacto" >Reservas</button> -->
 			</div>	
 			<button type="button" class="btn btn-lg w-100 " @click="funcion.toWp" style="background-color: #00253E; color: whitesmoke;">¡Pide ahora!</button>
 			<div>
@@ -70,10 +70,14 @@ export default {
 	font-size: large;
 	border: #00253E 1px solid;
 }
+.offcanvas button:hover {
+	border: #00253E 1px solid;
+}
 .barraCell {
 	background-color: #00253E;
 	color: whitesmoke;
 	border: whitesmoke 1px solid;
+	font-family: Arial;
 }
 
 

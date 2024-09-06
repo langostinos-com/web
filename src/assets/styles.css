@@ -1,7 +1,24 @@
-
+@font-face {
+	font-family: adelia;
+	src: url(../assets/fonts/adelia.otf) format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: comScript;
+	src: url(../assets/fonts/commercialscriptbt_regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Adobe;
+	src: url(../assets/fonts/AdobeDevanagari.otf) format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 .titulo {
-	font-family: 'adelia', sans-serif;
+	font-family: 'adelia';
 	font-size: 10vw;
 }
 
@@ -44,13 +61,10 @@
 	border: #00253E 1px solid;
 }
 
-.body {
-	background-color: #00253E;
-}
-
 .carousel-item {
 	height: 100%;
 	width: 100%;
+	filter: brightness(50%);
 }
 
 .botonesBarra {
@@ -127,6 +141,7 @@
 body {
 	background-color: #00253E;
 	color: whitesmoke;
+	font-family: 'Adobe', sans-serif;
 }
 
 

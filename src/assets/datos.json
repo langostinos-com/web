@@ -27,8 +27,7 @@
 		"fondos": [
 			"wallpaper/wp2.png",
 			"wallpaper/wp3.png",
-			"wallpaper/wp4.png",
-			"wallpaper/wp5.png"
+			"wallpaper/wp4.png"
 		],
 		"menu": {
 			"principal": {
@@ -345,27 +344,27 @@
 				{
 					"nombre": "Salmon",
 					"descripcion": "",
-					"costo": ""
+					"costo": "XXXX"
 				},
 				{
 					"nombre": "Camaron",
 					"descripcion": "",
-					"costo": ""
+					"costo": "XXXX"
 				},
 				{
 					"nombre": "Langostino",
 					"descripcion": "",
-					"costo": ""
+					"costo": "XXXX"
 				},
 				{
 					"nombre": "Pollo",
 					"descripcion": "",
-					"costo": ""
+					"costo": "XXXX"
 				},
 				{
 					"nombre": "Tropical",
 					"descripcion": "",
-					"costo": ""
+					"costo": "XXXX"
 				}
 			]
 		},
@@ -375,17 +374,12 @@
 				{
 					"nombre": "Festival Langos",
 					"descripcion": "40 piezas de rollos a tu elección",
-					"costo": ""
+					"costo": "XXXX"
 				},
 				{
 					"nombre": "Super festival Langos",
 					"descripcion": "80 piezas de rollos a tu elección",
-					"costo": ""
-				},
-				{
-					"nombre": "",
-					"descripcion": "",
-					"costo": ""
+					"costo": "XXXX"
 				}
 			]
 		}
