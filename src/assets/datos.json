@@ -28,19 +28,19 @@
 		"menu": {
 			"principal": {
 				"img": "/menu/principal.jpeg",
-				"img2": "menu/principal1.jpeg"
+				"img2": "menu/principal1.jpg"
 			},
 			"sushi": {
-				"img": "/menu/sushi.jpeg",
+				"img": "/menu/sushi.jpg",
 				"img2": "/menu/sushi1.jpeg"
 			},
 			"bebidas": {
-				"img": "/menu/.jpeg",
-				"img2": "/menu/.jpeg"
+				"img": "/menu/bebidas.jpg",
+				"img2": "/menu/bebidas1.jpg"
 			},
 			"otros": {
-				"img": "/menu/.jpeg",
-				"img2": "/menu/.jpeg"
+				"img": "/menu/otros.jpg",
+				"img2": "/menu/otros1.jpg"
 			}
 		}
 	},
@@ -138,7 +138,7 @@
 			]
 		},
 		"Pescados": {
-			"descripcion": "Con opciones desde $35.000 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada. Algunos pueden ir con las siguientes salsas:",
+			"descripcion": "Con opciones desde $35.000 según tamaño, todos los platos son acompañados con arroz, patacones o papas a la francesa y ensalada. Algunos pueden ir con las siguientes opciones:",
 			"opciones": [
 				"Frito",
 				"En salsa",
@@ -258,19 +258,24 @@
 			"platos": [
 				{
 					"nombre": "Stella",
-					"costo": "XXXX"
+					"costo": "6"
 				},
 				{
 					"nombre": "Corona",
-					"costo": "XXXX"
+					"costo": "8",
+					"costo2": "10"
+				},
+				{
+					"nombre": "Cordillera",
+					"costo": "8"
 				},
 				{
 					"nombre": "Cerveza nacional",
-					"costo": "XXXX"
+					"costo": "5"
 				},
 				{
 					"nombre": "Cerveza importada",
-					"costo": "XXXX"
+					"costo": "6"
 				}
 			]
 		},
@@ -349,21 +354,21 @@
 			"platos": [
 				{
 					"nombre": "Botella de Agua",
-					"costo": "XXXX"
+					"costo": "3"
 				},
 				{
 					"nombre": "Botella de Agua con gas",
-					"costo": "XXXX"
+					"costo": "4"
 				},
 				{
 					"nombre": "Coca-cola",
-					"costo": "XXXX"
+					"costo": "3"
 				},
 				{
 					"nombre": "Gaseosas Postobón",
 					"descripcion": "Pequeña - Grande",
-					"costo": "XX",
-					"costo2": "XX"
+					"costo": "2",
+					"costo2": "3"
 				}
 			]
 		}
